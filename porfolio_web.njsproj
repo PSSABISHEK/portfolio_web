@@ -56,6 +56,8 @@
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="images\about.jpg" />
     <Content Include="images\contact.jpg" />
+    <Content Include="images\contact_1.jpg" />
+    <Content Include="images\contact_2.jpg" />
     <Content Include="images\home.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\work.jpg" />
