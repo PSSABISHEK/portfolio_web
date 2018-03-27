@@ -16,7 +16,7 @@ var inbox = require('./routes/inbox');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+//app.set('views', path.join(__dirname, 'views'));
 app.use("/styles", express.static(__dirname + '/public/stylesheets'));
 app.use("/js", express.static(__dirname + '/js'));
 app.use("/images", express.static(__dirname + '/images'));
@@ -65,12 +65,6 @@ app.use(function (err, req, res, next) {
         error: {}
     });
 });
-
-//app.set('port', process.env.PORT || 80);
-
-/*var server = app.listen(app.get('port'), function () {
-    debug('Express server listening on port ' + server.address().port);
-});*/
 
 var server = app.listen(80, function () {
     console.log('running http')
