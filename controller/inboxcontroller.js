@@ -14,7 +14,7 @@ inboxcontroller.save = function (req, res) {
         if (err) {
             console.log(err);
         } else {
-            console.log("Successfully created an employee.");
+            console.log("Successfully entered");
             console.log(req.body);
             res.redirect("/")
         }
