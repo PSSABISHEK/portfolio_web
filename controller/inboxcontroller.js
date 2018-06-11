@@ -15,8 +15,7 @@ inboxcontroller.save = function (req, res) {
             console.log(err);
         } else {
             console.log("Successfully entered");
-            console.log(req.body);
-            res.redirect("/")
+            res.redirect("/");
         }
     });
 };
